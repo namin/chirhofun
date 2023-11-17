@@ -1,11 +1,6 @@
 #!/bin/bash
 set -e
 
-echo here
-ls
-echo prev
-ls ..
-
 source myenv/bin/activate
 
 cat $2 $1 >cmd.py
