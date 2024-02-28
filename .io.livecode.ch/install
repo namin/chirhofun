@@ -3,7 +3,8 @@ set -e
 
 python3 -m venv myenv
 source myenv/bin/activate
-pip --default-timeout=100 install pyro-ppl
+pip --default-timeout=1000 install torch
+pip --default-timeout=1000 install pyro-ppl
 pip install chirho
 
 echo OK
